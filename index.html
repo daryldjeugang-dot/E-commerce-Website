@@ -4,15 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-commerce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
        <style type="text/tailwindcss">
       @theme {
         --color-primary: #864cf1;
         --color-body: #dcdada4c;
+        --font-inter:'Inter';
       }
       </style>
 </head>
-<body>
-    
+<body class="font-inter">
+  <div class="bg-[#000] text-[#fff] text-[.8rem] justify-between gap-[5rem] w-full flex items-center  justify-center py-[.5rem]">
+        <p>Summer sale for All Swim and Free Express Delivery -OFF 50% <a href="#" class="font-bold hover:border-b-[.2rem]">ShopNow</a></p>
+        <select name="" id="" class="">
+          <option value="English">English</option>
+          <option value="french">Francais</option>
+          <option value="Espagnol">Espagnol</option>
+        </select>
+        </div>
+        <nav class="flex  pb-[.5rem] px-[7rem] justify-between my-[2rem] items-center border-b-[#CCCCCC] border-b-[.2rem]">
+          <p class="font-bold text-2xl">Exclusive</p>
+          <ul class="flex w-[25rem] justify-between">
+            <li><a href="#">Home</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Sign Up</a></li>
+          </ul>
+          <div class="flex gap-[2rem]">
+            <p class="relative"><input type="text" id="" placeholder="What are you looking for?" class="bg-[#F5F5F5] px-[.5rem] pr-[2rem] relative py-[.3rem]">
+              <img src="./assets/image/search.png" alt="" class="absolute mt-[-1.5rem] ml-[15rem]">
+            </p>
+            <img src="./assets/image/Wishlist.png" alt="">
+            <img src="./assets/image/panier.png" alt="">
+          </div>
+        </nav>
 </body>
 </html>
